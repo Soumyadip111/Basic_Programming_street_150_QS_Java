@@ -16,9 +16,9 @@ public class Basic_Qs_10 {
         Scanner sc = new Scanner(System.in);
 
         // Input two numbers
-        System.out.print("Enter first number (a): ");
+        System.out.print("Enter first number a: ");
         int a = sc.nextInt();
-        System.out.print("Enter second number (b): ");
+        System.out.print("Enter second number b: ");
         int b = sc.nextInt();
 
         // Calculate GCD
