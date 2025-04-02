@@ -3,8 +3,8 @@ import java.util.*;
 public class Basic_Qs_13 {
 
     public static String Reverse(String str) { 
-        char charArr[] = str.toCharArray();
-        int left = 0, right = charArr.length - 1;
+        char charArr[] = str.toCharArray();   // String to char array
+        int left = 0, right = charArr.length - 1;  // last index
 
         while (left < right) {
             char temp = charArr[left];
